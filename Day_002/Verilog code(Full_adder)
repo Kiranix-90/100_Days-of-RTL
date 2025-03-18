@@ -1,0 +1,10 @@
+module full_adder(
+    input A,
+    input B,
+    input C,
+    output sum,
+    output carry
+    );
+    assign sum = A^B^C;
+    assign carry = A&B&C;
+endmodule
