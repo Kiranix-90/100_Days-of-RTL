@@ -1,26 +1,4 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 31.03.2025 10:54:52
-// Design Name: 
-// Module Name: sr_latch_tb
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
-module sr_latch_tb;
+ sr_latch_tb;
 reg S,R;
 wire Q,Qbar;
 sr_latch DUT(S,R,Q,Qbar);
