@@ -1,4 +1,4 @@
- encoder_8to3_tb;
+module encoder_8to3_tb;
 reg A7,A6,A5,A4,A3,A2,A1,A0;
 wire B,C,D;
 encoder_8to3 DUT(A7,A6,A5,A4,A3,A2,A1,A0,B,C,D);
