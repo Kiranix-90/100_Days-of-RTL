@@ -1,26 +1,4 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 22.03.2025 19:46:33
-// Design Name: 
-// Module Name: encoder_8to3_tb
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
-module encoder_8to3_tb;
+ encoder_8to3_tb;
 reg A7,A6,A5,A4,A3,A2,A1,A0;
 wire B,C,D;
 encoder_8to3 DUT(A7,A6,A5,A4,A3,A2,A1,A0,B,C,D);
