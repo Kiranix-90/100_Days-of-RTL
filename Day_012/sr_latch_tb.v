@@ -1,4 +1,4 @@
- sr_latch_tb;
+module sr_latch_tb;
 reg S,R;
 wire Q,Qbar;
 sr_latch DUT(S,R,Q,Qbar);
